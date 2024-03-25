@@ -11,9 +11,18 @@ body {
   font-size: 20pt;
   background-color: white;
 }
+.center {
+  text-align: center;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
 table {
-  display: inline-block;
+  border-spacing: 10px;
 }
 
 #jdl {
